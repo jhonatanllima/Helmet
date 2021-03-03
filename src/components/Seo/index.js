@@ -4,8 +4,11 @@ import { Helmet } from "react-helmet";
 function Seo() {
   return (
     <Helmet>
-      <title>My Title</title>
+      <title>oi gabriel</title>
       <meta name="description" content="Helmet application" />
+      <meta property="og:image" content="https://antigo.abqm.com.br/img/image-default.png" />
+      <meta property="og:image:width" content="400" />
+      <meta property="og:image:height" content="400" />
     </Helmet> 
   );
 }
